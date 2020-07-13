@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ee167f0aee8e64cb3743c6821702aa, type: 3}
+  m_Name: GameDataSO
+  m_EditorClassIdentifier: 
+  killCount: 488
+  hp: 130
+  damage: 25
+  speed: 6
+  equipItem:
+  - itemType: 2
+    itemClac: 0
+    name: Grenade Up
+    desc: Incease +2 Grenade
+    value: 2
+  - itemType: 0
+    itemClac: 0
+    name: HP Up
+    desc: Increase + 10 Hp
+    value: 10
+  - itemType: 3
+    itemClac: 1
+    name: Damage Up
+    desc: Incease 5% Damage
+    value: 0.05
